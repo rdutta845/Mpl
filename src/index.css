@@ -1,0 +1,52 @@
+.italic-text{
+    color: #404040;
+    font-size: 17px;
+    font-style: italic;
+
+}
+.fan-section img{
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    transform: scale(1.5);
+}
+.tile-info{
+    height: 235px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    background-image: url('./assets/rfrrl_card_bg.png') ;
+    background-size: 100% 100%;
+}
+.referal-amount{
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+}
+.referal-code{
+    font-size: 25px;
+    font-weight: bold;
+}
+.android-btn{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+.android-btn img{
+    width: 90%;
+    height: 80%;
+    cursor: pointer;
+}
+.label-info{
+    height: 5vh;
+    background: lightgrey;
+
+}
+.label-info p{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
