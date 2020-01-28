@@ -1,6 +1,6 @@
 # Mpl
 mpl assignment
-##Step
-  1.npm install
+## Step
+  1. npm install
   
-  2.npm start
+  2. npm start
