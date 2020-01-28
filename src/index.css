@@ -2,7 +2,7 @@
     color: #404040;
     font-size: 17px;
     font-style: italic;
-
+    margin-bottom: 10px;
 }
 .fan-section img{
     position: absolute;
@@ -11,19 +11,21 @@
     transform: scale(1.5);
 }
 .tile-info{
-    height: 235px;
+    height: 215px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
-    background-image: url('./assets/rfrrl_card_bg.png') ;
+    width: 80%;
+    padding: 20px 5%;
+    background: url('./assets/rfrrl_card_bg.png') no-repeat;
     background-size: 100% 100%;
 }
 .referal-amount{
     font-size: 60px;
     color: red;
     font-weight: bold;
+    line-height: 1;
 }
 .referal-code{
     font-size: 25px;
@@ -43,10 +45,39 @@
 .label-info{
     height: 5vh;
     background: lightgrey;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .label-info p{
-    color: white;
-    text-align: center;
+    color: #7d7d7d;
+    font-weight: bold;
     font-family: sans-serif;
+}
+.banner-section{
+    background: url('./assets/img_fan_bg.jpg') no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.banner-section>h1{
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+}
+.banner-section>p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.top-sec{
+    position: absolute;
+    top: 45px;
+}
+.bottom-sec{
+    position: absolute;
+    bottom: 45px;
 }
